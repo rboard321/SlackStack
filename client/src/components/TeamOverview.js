@@ -190,7 +190,7 @@ const TeamOverview = () => {
                 <InputLabel id="demo-simple-select-label">Select Members</InputLabel>
                 {/* <InputLabel htmlFor="multi"><Typography component="h6">Select Members</Typography></InputLabel> */}
                 <Select
-                  // multiple
+                  multiple
                   labelId="members-to-select"
                   value={membersToAdd}
                   style={select}
